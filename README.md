@@ -9,6 +9,7 @@
 - Rozbudowany system rankingu CS 1.6
 - Ładnie wyglądająca Topka Rang
 - Możliwość edycji HUD przez gracza jak i ustawienie pokazywania się informacji o zdobytych punktach (Chat, HUD+Chat, HUD)
+- Ranga gracza nad głową
 
 ### Configure
 <details>
@@ -67,6 +68,9 @@ amxxpro_rank_kill_host_vip "10"
 //Co ile dni ma czyscic zapis z graczy ktorzy juz nie graja?
 amxxpro_rank_vault "30"
 
+//Od ilu graczy maja byc zliczane punkty?
+amxxpro_rank_players "3"
+            
 //===================== » Ranks System - Configuration « =====================
 ```
 </details>
